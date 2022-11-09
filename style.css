@@ -50,6 +50,7 @@ body {
 .top {
     /* border: solid blue; */
     background-color: white;
+    /* display: flex; */
     
 }
 /* HEADER */
@@ -57,7 +58,7 @@ header {
     /* border: solid brown; */
     display: flex;
     justify-content: space-around;
-    
+    border-bottom: solid #e6e6e6 2px;    
 }
 
 .links {
@@ -74,10 +75,19 @@ header {
     margin:4px;
 }
 
-.logo {
-    /* margin-left: 100px; */
-    
+
+.top-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    /* margin-left: 100px;
+    margin-right: 100px; */
+    /* border: solid #d9ed92; */
+    flex: 1 ;
+    padding: 100px;
 }
+
+/* 
 .top-content {
     display: flex;
     justify-content: center;
@@ -86,25 +96,16 @@ header {
     border: solid orange;
     background-color: white;    
     flex: 1;
-}
+} */
 
-.top-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-    /* margin-left: 100px;
-    margin-right: 100px; */
-    border: solid #d9ed92;
-    flex: 1 ;
-    padding: 100px;
-}
 
 
 
 
 
 .top-text {
-    border: solid pink;
+    /* border: solid pink; */
+    padding: 100px;
     /* flex: 1; */
 }
 
@@ -112,19 +113,10 @@ img {
     border-radius: 999px;
     width: 600px;
     /* flex: 1; */
-    border: solid brown;
-}
-
-
-/* MID */
-.mid {
     /* border: solid brown; */
-    display: flex;
-    justify-content: center;
-    flex: 1;
-    padding: 200px;    
-    /* border: #1F2937; */
 }
+
+
 /* MID-CONTENT */
 
 .random-title {
@@ -146,7 +138,7 @@ img {
 
 /* FOOTER */
 
-.foter {
+.footer {
 
 }
 
