@@ -15,6 +15,10 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
+a {
+    text-decoration: none;
+    color: #a5a5a5;
+}
 
 
 
@@ -111,13 +115,19 @@ header {
     /* flex: 1; */
 }
 
-img {
+.profile {
     border-radius: 999px;
     width: 600px;
     /* flex: 1; */
     /* border: solid brown; */
 }
 
+.linkedin {
+    width: 70px;
+    margin-left: 300px;
+    padding: 50px;
+
+}
 
 /* MID-CONTENT */
 
